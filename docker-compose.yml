@@ -71,7 +71,7 @@ services:
     restart: always
     depends_on: *langfuse-depends-on
     ports:
-      - 3000:3000
+      - 3003:3000
     networks:
       - default
       - langfuse-network
